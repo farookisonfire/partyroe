@@ -1,0 +1,88 @@
+body {
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+
+.background-image {
+  height: 450px;
+  width: 100%;
+  margin: 0;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-image: url("background-one.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: left;
+}
+
+#navbar {
+  margin-bottom: 0px;
+}
+
+#background-container {
+  position:relative;
+  margin: 0;
+  padding: 0;
+}
+
+#overlay {
+  position:relative;
+  top: -450px;
+  background-color: rgba(30,30,30,.5);
+  height: 450px;
+  width: 100%;
+  text-align: center;
+}
+
+#slogan{
+  position:relative;
+  color: white;
+  font-size: 48px;
+  font-weight: 200;
+  margin-top: 0;
+  padding-top: 150px;
+}
+
+#shop-btn {
+  position:relative;
+  z-index: 100;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(1,1,1,0.2);
+  display: inline-block;
+  padding: 5px 60px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+#shop-btn:hover {
+  background-color: rgba(160,87,130, .5);
+  cursor: pointer;
+}
+
+#navbar {
+  border-radius: 0;
+}
+
+.footer-links {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 5em;
+}
+
+.footer-anchor:hover {
+  text-decoration: none;
+}
+
+.footer-anchor {
+  color: #222;
+  font-weight: 400;
+}
+
+#footer {
+  position:relative;
+  top: -450px;
+  text-align: center;
+  /*border-bottom: 1px solid black*/
+  /*background-image: linear-gradient(to bottom, #333 0, #222 100%);*/
+}
